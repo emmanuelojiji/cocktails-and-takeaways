@@ -213,6 +213,7 @@ iframe {
           align-items: center;
   font-size: 30px;
   color: white;
+  display: none;
 }
 
 @-webkit-keyframes spin-right {
