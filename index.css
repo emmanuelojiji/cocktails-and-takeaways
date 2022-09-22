@@ -35,6 +35,14 @@ header .page-width {
           align-items: center;
 }
 
+@media only screen and (max-width: 970px) {
+  header .page-width {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 header img {
   width: 220px;
   -webkit-transition: 0.2s ease-in-out;
@@ -53,6 +61,12 @@ header a {
   margin-right: 20px;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 970px) {
+  header a {
+    display: none;
+  }
 }
 
 header .watch-now {
@@ -169,6 +183,12 @@ main {
   margin-top: 20px;
   line-height: 160%;
   font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 970px) {
+  .meet-the-host p {
+    margin-left: 0;
+  }
 }
 
 .meet-the-host button {
