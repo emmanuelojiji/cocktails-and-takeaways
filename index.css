@@ -414,6 +414,7 @@ iframe {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 50px;
 }
 
 .hall-of-fame h2 {
@@ -424,6 +425,7 @@ iframe {
   color: transparent;
   text-shadow: 0px 0px 15px #df5aba;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .hall-of-fame .a {
