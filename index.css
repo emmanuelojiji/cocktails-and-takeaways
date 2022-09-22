@@ -461,6 +461,13 @@ iframe {
   width: 100%;
 }
 
+@media only screen and (max-width: 970px) {
+  .hall-of-fame .hall-of-fame-grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
 .hall-of-fame .image-container {
   background: grey;
 }
