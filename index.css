@@ -44,7 +44,7 @@ header .page-width {
 }
 
 header img {
-  width: 220px;
+  width: 160px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
@@ -57,7 +57,7 @@ header img:hover {
 
 header a {
   color: white;
-  font-size: 28px;
+  font-size: 20px;
   margin-right: 20px;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 3px;
