@@ -80,6 +80,7 @@
 
 body {
   background: #14202f;
+  transition: 0.3s ease-in-out;
 }
 
 .page-width {
@@ -95,6 +96,7 @@ h2 {
 }
 
 header {
+  transition: 0.3s ease-in-out;
   padding-top: 20px;
 }
 header .page-width {
@@ -146,6 +148,9 @@ main {
   background-position: center;
 }
 
+.meet-the-host {
+  transition: 0.3s ease-in-out;
+}
 .meet-the-host .page-width {
   display: flex;
 }
@@ -401,4 +406,6 @@ iframe {
 }
 .light-switch {
   color: yellow;
+  position: absolute;
+  z-index: 5;
 }/*# sourceMappingURL=index.css.map */
