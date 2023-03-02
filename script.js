@@ -2,6 +2,7 @@ window.onload = () => {
   const light_switch = document.querySelector(".light-switch");
   const header = document.querySelector("header");
   const meet_the_host = document.querySelector(".meet-the-host");
+  const iframe = document.querySelector("#player");
 
   light_switch.onclick = () => {
     if (light_switch.classList.contains("off")) {
@@ -18,4 +19,11 @@ window.onload = () => {
       meet_the_host.style.opacity = "1";
     }
   };
+
+  iframe.onclick = () => {
+    console.log("clicked")
+  }
+
+
+
 };
